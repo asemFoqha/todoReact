@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  margin: auto;
+  gap: 5px;
+}
+.todolist h1 {
+  text-align: center;
+}
+.todolist .todolist__form {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+.todolist .todolist__form input {
+  flex: 1;
+}
+
+.todoitem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.finished {
+  text-decoration: line-through;
+  color: #ffffff44;
+}
